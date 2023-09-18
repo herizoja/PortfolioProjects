@@ -1,3 +1,6 @@
+-- Dataset is available in 'Datasets_for_Portfolio_Project' repository | Nashville_Housing_Data_SQL_Data_Cleaning.csv --
+
+
 SELECT *
 FROM PortfolioProject.  .NashvilleHousing
 
