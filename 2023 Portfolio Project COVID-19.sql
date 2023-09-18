@@ -1,3 +1,6 @@
+-- Datasets are available at (https://ourworldindata.org/covid-deaths) -- 
+
+
 SELECT *
 FROM PortfolioProject.  .CovidDeaths
 WHERE continent is not NULL
