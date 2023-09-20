@@ -6,10 +6,6 @@ FROM PortfolioProject.  .CovidDeaths
 WHERE continent is not NULL
 ORDER BY 3,4
 
--- SELECT *
--- FROM PortfolioProject.  .CovidDeaths
--- ORDER BY 3,4
-
 -- Select data that we are going to be using
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
@@ -18,7 +14,7 @@ WHERE continent is not NULL
 ORDER BY 1,2
 
 -- Looking at TotalCases vs TotalDeaths
--- Shows likelihood of dying if you contract Covid in China 
+-- Shows likelihood of dying if you contract Covid 19 in China 
 
 SELECT location, date, total_cases, total_deaths, (total_deaths*1.0)/(total_cases*1.0)*100 as DeathPercentage
 FROM PortfolioProject.  .CovidDeaths
@@ -27,7 +23,7 @@ AND continent is not NULL
 ORDER BY 1,2
 
 -- Looking at Total_cases vs Population
--- Shows what percentage of population got Covid in China
+-- Shows what percentage of population got Covid 19 in China
 
 SELECT location, date, total_cases, population, (total_cases*1.0)/(population*1.0)*100 as PercentPopulationInfected 
 FROM PortfolioProject.  .CovidDeaths
