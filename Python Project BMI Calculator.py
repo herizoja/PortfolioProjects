@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
+# Based on tutorial from (https://www.youtube.com/watch?v=ey1VNjU0YbM&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=51) 
 
 
 name = input('Enter your name: ')
@@ -17,13 +14,6 @@ BMI = (weight * 703) / (height * height)
 print(BMI)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 Under 18.5	Underweight	Minimal
@@ -34,13 +24,6 @@ Under 18.5	Underweight	Minimal
 40 and over	Morbidly Obese	Extremely High
 
 
-# In[ ]:
-
-
-
-
-
-# In[19]:
 
 
 if BMI>0:
@@ -60,37 +43,7 @@ else:
     print("Enter valid input")
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
